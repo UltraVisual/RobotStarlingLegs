@@ -22,7 +22,7 @@ package uk.co.ultravisual.robotlegs.mvcs
     /**
      * An abstract <code>IViewMap</code> implementation
      */
-    public class BoingViewMap extends ViewMapBase implements IViewMap
+    public class RobotStarlingViewMap extends ViewMapBase implements IViewMap
     {
         /**
          * @private
@@ -50,7 +50,7 @@ package uk.co.ultravisual.robotlegs.mvcs
          * @param contextView The root view node of the context. The map will listen for ADDED_TO_STAGE events on this node
          * @param injector An <code>IInjector</code> to use for this context
          */
-        public function BoingViewMap(contextView:DisplayObjectContainer, starlingStage:Stage, injector:IInjector)
+        public function RobotStarlingViewMap(contextView:DisplayObjectContainer, starlingStage:Stage, injector:IInjector)
         {
             super(contextView, injector);
             _starlingStage = starlingStage;

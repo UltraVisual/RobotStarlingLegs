@@ -30,7 +30,7 @@ package uk.co.ultravisual.robotlegs.mvcs
     /**
      * An abstract <code>IMediatorMap</code> implementation
      */
-    public class BoingMediatorMap extends ViewMapBase implements IMediatorMap
+    public class RobotStarlingMediatorMap extends ViewMapBase implements IMediatorMap
     {
         /**
          * @private
@@ -80,7 +80,7 @@ package uk.co.ultravisual.robotlegs.mvcs
          * @param injector An <code>IInjector</code> to use for this context
          * @param reflector An <code>IReflector</code> to use for this context
          */
-        public function BoingMediatorMap(contextView:DisplayObjectContainer, starlingStage:Stage, injector:IInjector, reflector:IReflector)
+        public function RobotStarlingMediatorMap(contextView:DisplayObjectContainer, starlingStage:Stage, injector:IInjector, reflector:IReflector)
         {
             super(contextView, injector);
             _starlingStage = starlingStage;
